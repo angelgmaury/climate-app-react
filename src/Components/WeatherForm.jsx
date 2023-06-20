@@ -20,7 +20,7 @@ export function WeatherForm({ getWeather }) {
         />
       </div>
 
-      <button className="bg-cyan-50 rounded-full w-10 h-10 flex items-center justify-center transition-all hover:bg-cyan-200">
+      <button className=" rounded-full flex items-center justify-center transition-all">
         <FontAwesomeIcon icon={faMagnifyingGlass} fontSize={20} />
       </button>
     </form>

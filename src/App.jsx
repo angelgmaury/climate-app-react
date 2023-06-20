@@ -38,7 +38,7 @@ export default function App() {
       return;
     }
 
-    contain.style.height = "500px";
+    contain.style.height = "550px";
     setIs404(false);
 
     setState({
@@ -55,7 +55,7 @@ export default function App() {
   return (
     <>
       <main
-        className={`flex w-screen h-screen justify-center items-center colorDefault`}
+        className={`flex w-full h-screen justify-center pt-20 colorDefault`}
       >
         <div className="contain">
           <WeatherForm getWeather={getWeather} />

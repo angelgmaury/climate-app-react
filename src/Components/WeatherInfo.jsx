@@ -54,7 +54,7 @@ export function WeatherInfo({
         <p className="text-xl font-semibold mt-2 capitalize">{description}</p>
       </div>
       <div className="containInfoHumiditySpeed">
-        <div className="pl-4 justify-start flex items-center w-2/4 h-[100px]">
+        <div className="justify-start flex items-center w-2/4 h-[100px]">
           <FontAwesomeIcon
             icon={faWater}
             fontSize={26}
@@ -65,7 +65,7 @@ export function WeatherInfo({
             <p>Humidity</p>
           </div>
         </div>
-        <div className="pr-4 justify-end flex items-center w-2/4 h-[100px]">
+        <div className="justify-end flex items-center w-2/4 h-[100px]">
           <FontAwesomeIcon
             icon={faWind}
             fontSize={26}
