@@ -8,13 +8,13 @@ import {
 export function WeatherForm({ getWeather }) {
   return (
     <form onSubmit={getWeather} className="containForm mb-4 mt-4">
-      <div className="flex containInput ">
-        <FontAwesomeIcon icon={faLocationDot} fontSize={28} />
+      <div className="flex containInput">
+        <FontAwesomeIcon icon={faLocationDot} fontSize={22} />
         <input
           type="text"
           name="city"
           placeholder="Your City Name"
-          className="placeholder:text-[#ccc] placeholder:text-lg placeholder:capitalize outline-none uppercase ml-2 text-xl bg-transparent"
+          className="placeholder:text-[#ccc] placeholder:text-lg placeholder:capitalize outline-none uppercase text-xl bg-transparent text-center"
           autoFocus
           autoComplete="off"
         />
